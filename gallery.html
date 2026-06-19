@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="foto/Icons/20250711_121399.png">
+    <title>Horeg Style | Agdy's Sounds</title>
+</head>
+<body>
+
+     <div class="container">
+        <!--LOGIN FORM-->
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <span class="close" id="closeBtn">&times;</span>
+                <h2>Log In</h2>
+                <form action="">
+                    <label for="email">Email</label>
+
+                    <input 
+                        type="email" 
+                        id="email"
+                        name="email"
+                        placeholder="yourmail@example.com" 
+                        required
+                    >
+
+                    <label for="password">Password</label>
+
+                    <input 
+                        type="password"
+                        id="password"
+                        name="password" 
+                        placeholder="Your Password" 
+                        required
+                    >
+                    <button type="submit" class="log-in">Log In</button>
+                </form>
+                <p><a href="">Forgot Your Password?</a></p>
+            </div>
+        </div>
+
+
+        <nav class="navbar">
+            <div class="logo" >
+                <a href="index.html"><img src="foto/Icons/20250711_121399.png" alt="" ></a>
+            </div>
+            <ul>
+                <li><a href="mediaPlayer.html">Project</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <button class="login-btn" id="loginBtn">
+                <svg src="foto/account.svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+            </button>
+        </nav>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

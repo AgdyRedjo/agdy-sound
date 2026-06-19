@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="foto/Icons/20250711_121399.png">
+    <title>Horeg Style | Agdy's Sounds</title>
+</head>
+<body>
+
+     <div class="container">
+        <!--LOGIN FORM-->
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <span class="close" id="closeBtn">&times;</span>
+                <h2>Log In</h2>
+                <form action="">
+                    <label for="email">Email</label>
+
+                    <input 
+                        type="email" 
+                        id="email"
+                        name="email"
+                        placeholder="yourmail@example.com" 
+                        required
+                    >
+
+                    <label for="password">Password</label>
+
+                    <input 
+                        type="password"
+                        id="password"
+                        name="password" 
+                        placeholder="Your Password" 
+                        required
+                    >
+                    <button type="submit" class="log-in">Log In</button>
+                </form>
+                <p><a href="">Forgot Your Password?</a></p>
+            </div>
+        </div>
+
+
+        <nav class="navbar">
+            <div class="logo">
+                <img src="foto/Icons/20250711_121399.png" alt="">
+            </div>
+            <ul>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+            <button class="login-btn" id="loginBtn">
+                <svg src="foto/account.svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+            </button>
+        </nav>
+
+        <main>
+
+            <div class="carousel-container">
+                <div class="carousel">
+                    <button class="prev">&#10094;</button>
+                    <div class="img-carousel">
+                        <img src="foto/Gallery/IMG_20260111_144138.jpg" alt="" class="active">
+                        <img src="foto/Gallery/IMG_20260112_203455.jpg" alt="">
+                        <img src="foto/Gallery/IMG_20260124_175606.jpg" alt="">
+                        <img src="foto/Gallery/IMG_20260124_193212.jpg" alt="">
+                        <img src="foto/Gallery/IMG_20260131_175642.jpg" alt="">
+                        <img src="foto/Gallery/IMG_20260212_210723.jpg" alt="">
+                        <img src="foto/Gallery/IMG_20260216_121405.jpg" alt="">
+                    </div>
+
+                    <button class="next">&#10095;</button>
+                    <div class="dots"></div>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
